@@ -1,0 +1,152 @@
+.users-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+
+.overlay {
+  position: absolute; /* Position overlay on top of the video */
+  top: 20%; /* Adjust vertical position */
+  left: 50%;
+  transform: translate(-50%, -50%); /* Center overlay */
+  color: white; /* Change text color to improve visibility */
+  text-align: center; /* Center the text */
+  z-index: 2; /* Ensure it appears above the video */
+}
+
+.page-title {
+  margin-top: 300px;
+  font-size: 64px;
+  margin-bottom: 20px;
+  padding-inline-start: 0%;
+  color: #ffffff;
+}
+
+.search-container {
+ color: #090909;
+  width: 400px;
+  margin-inline-start: 250px;
+  
+  margin-top: 20px; /* Space between title and search bar */
+}
+
+.search-input {
+  width: 20px;
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+  background:transparent;
+  
+}
+
+.search-button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 0px;
+  color: rgb(19, 19, 19);
+}
+
+
+.search-input::placeholder {
+  color: #fffcfc; /* Change this to your desired placeholder color */
+  opacity: 1; /* Optional: You can set this to 1 for full opacity */
+}
+
+.video-section {
+  width: 100%;
+  height: 500px; /* Increased height of the video section */
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.header-video {
+  width: 100%;
+  height: 100%; /* Keep it at 100% to fill the section */
+  object-fit: cover; /* Ensure video covers the entire section */
+  opacity: 0;
+  transition: opacity 2s ease-in-out; /* Fade-in animation */
+  background-color: black; /* Placeholder background color if the video doesn't load */
+}
+
+.average-ratings {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+ margin-inline-start: -400px;
+ 
+}
+
+.rating-box {
+  text-align: center;
+}
+
+.rating-box h4 {
+  margin-bottom: 5px;
+}
+
+.rating-box p {
+  font-size: 18px;
+}
+
+.rating-box p:last-child {
+  margin-bottom: 10px;
+}
+
+.user-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.add button {
+  padding: 10px 20px;
+  background-color:rgb(0, 0, 0);
+  
+  border:#20438f;
+  border-radius: 5px;
+  color: #000000;
+  cursor: pointer;
+  margin-top: 10px;
+  font-family: "Poppins, sans-serif";
+  text-decoration: none;
+  transition: background-color 0.3s;
+  font-weight: bold;
+  margin-left: 800px;
+  margin-top: 20px;
+  font-size: medium;
+  font-size: large;
+ 
+  
+}
+
+.add button:hover {
+  background-color: #000000; 
+}
+
+.user-card {
+  background-color: #c5d9ed; 
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.user-card h1,
+.user-card h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.user-card p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.add a {
+  color: #ffffff; /* Change this to your desired color */
+  text-decoration: none; /* Remove underline */
+  font-weight:initial; /* Make it bold */
+  transition: color 0.3s; /* Smooth transition for hover effect */
+}

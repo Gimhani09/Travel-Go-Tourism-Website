@@ -1,0 +1,44 @@
+.user-card {
+  background-color: #bfd0ec; /* Light background color */
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+  position: relative;
+  transform: scale(1); /* Initial scale */
+}
+
+.user-card:hover {
+  transform: scale(1.05); /* Slightly enlarge the card on hover */
+  box-shadow: 0 4px 15px rgba(186, 186, 230, 0.3); /* Add a glowing shadow effect */
+  background-color: #bfd0ec; /* Slightly darker background on hover */
+}
+
+.user-card h1,
+.user-card p {
+  transition: color 0.3s ease; /* Smooth transition for text color */
+}
+
+.user-card:hover h1,
+.user-card:hover p {
+  color: #000000; /* Change text color on hover to a deeper blue */
+}
+
+.user-card button {
+  padding: 8px 16px;
+  background-color: hsl(0, 0%, 3%);
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 30px;
+  
+}
+.update-link{
+  color: #fbfafa;
+ 
+}
+.user-card button:hover {
+  background-color: #0c0c0c;
+}

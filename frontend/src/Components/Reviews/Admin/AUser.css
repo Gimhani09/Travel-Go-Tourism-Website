@@ -1,0 +1,116 @@
+.average-ratings {
+  margin-top: 30px;
+}
+
+.rating-box5 {
+  position: relative;
+  text-align: center;
+}
+
+.users-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.page-title4 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+.search-input7 {
+  width: 50%;
+  padding: 10px;
+  margin-right: 0px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 50px;
+}
+
+.search-button5 {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+
+.average-ratings3 {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.rating-box {
+  text-align: center;
+}
+
+.rating-box h4 {
+  margin-bottom: 5px;
+}
+
+.rating-box p {
+  font-size: 18px;
+}
+
+.rating-box p:last-child {
+  margin-bottom: 10px;
+}
+
+.user-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.print-button {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.user-card {
+  background-color: #f0f8ff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.user-card h1,
+.user-card h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.user-card p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.user-card button {
+  padding: 8px 16px;
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.user-card button:hover {
+  background-color: #c82333;
+}
+@media print {
+  .delete-button {
+    display: none !important;
+  }
+}
